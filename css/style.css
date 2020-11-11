@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    overflow: auto;
+    
+}
+
+#navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar h1 {
+    color: #fff;
+    float: left;
+    padding-top: 20px;
+    
+}
+
+#navbar ul li  {
+    
+    float: left;
+    padding: 0px 10px;
+    
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+    
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+
+#navbar ul li a:hover {
+    background: #444;
+    color: coral;
+}
+
+#navbar ul .current {
+    background: #444;
+    color: coral;
+}
+
+#showcase{
+    background: url('/img/1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    
+}
+
+.showcase-content {
+    padding: 0px 50px;
+    text-align: center;
+    padding-top: 20rem;
+    
+}
+
+@media screen and (max-width : 478px) {
+    .showcase-content {
+
+        padding: 0px 50px;
+        text-align: center;
+        padding-top: 10rem;
+        
+    }
+
+    .showcase-content #h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-height : 376px) {
+    .showcase-content {
+        padding: 0px 50px;
+        text-align: center;
+        padding-top: 5rem;
+        
+    }
+}
+
+
+.hello p {
+    background-color: pink;
+}
+
+
+@media screen and (max-width : 500px){
+    .hello p {
+       color: blue;
+       background-color: red;
+    }
+} 
+
+
+
+
+
+
+.showcase-content h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-style: bold;
+    
+}
+
+/* Utility class  */
+.primary {
+    color: coral;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fafafa;
+}
+
+.bg-light {
+    background-color: #fafafa;
+    color: #333;
+}
+
+.bg-primary{
+    background-color: coral;
+    color: #fafafa;
+}
+.lead{
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 1.8em;
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+
+.btn {
+    
+    padding: 15px 13px;
+    text-decoration: none;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color:coral;
+    color: #fff;
+}
+
+
+
+.home-img {
+    background: url('/img/2.jpg') no-repeat center/cover;
+    height: 310px;
+    width: 50%;
+    float: left;
+
+}
+
+.home-text {
+    float: right;
+    text-align: center;
+    width: 50%;
+    padding: 50px 15px;
+    height: 310px;
+    overflow: hidden;
+}
+
+.home-text h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Practice Section */
+
+
+/* #practice {
+    margin-left: 30px;
+}
+
+#practice p {
+    font-size: 25px;
+} */
+
+
+
+
